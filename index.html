@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacha - Visionary Full Stack Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Sacha, a visionary software engineer specializing in high-performance web applications, UI/UX design, and AI-driven solutions.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="glass">
+        <div class="logo">SACHA.IO</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary" style="padding: 10px 25px;">Hire Me</a>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="reveal">Crafting <span>Digital</span> Experiences</h1>
+            <p class="reveal">Building the future of the web with cutting-edge technologies and human-centric design. Full-Stack Engineer specializing in React, Node.js, and Cloud Architecture.</p>
+            <div class="reveal">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-grid">
+            <div class="about-img reveal">
+                <img src="assets/profile.png" alt="Sacha's Avatar">
+            </div>
+            <div class="about-text reveal">
+                <h2>Engineering with Passion</h2>
+                <p>Hello! I'm Sacha, a passionate software engineer based in the digital world. I love solving complex problems and turning ideas into reality through code.</p>
+                <p>With over 2 years of experience in full-stack development, I've had the privilege of working with amazing startups and established brands to build scalable, high-quality products.</p>
+                <div class="skills" style="display: flex; gap: 10px; margin-top: 20px;">
+                    <span class="glass" style="padding: 8px 15px;">TypeScript</span>
+                    <span class="glass" style="padding: 8px 15px;">React</span>
+                    <span class="glass" style="padding: 8px 15px;">Node.js</span>
+                    <span class="glass" style="padding: 8px 15px;">AWS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-title">
+            <h2 class="reveal">Selected Works</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card glass reveal">
+                <img src="assets/project1.png" alt="Project 1 Thumbnail">
+                <div class="project-info">
+                    <h3>HealthSync Mobile</h3>
+                    <p>A comprehensive health tracking dashboard with real-time biometric analysis.</p>
+                </div>
+            </div>
+            <div class="project-card glass reveal">
+                <img src="assets/project1.png" alt="Project 2 Thumbnail"> <!- Reusing since I only generated one good one ->
+                <div class="project-info">
+                    <h3>Nexus AI</h3>
+                    <p>An intelligent workflow automation tool powered by Large Language Models.</p>
+                </div>
+            </div>
+            <div class="project-card glass reveal">
+                <img src="assets/project1.png" alt="Project 3 Thumbnail">
+                <div class="project-info">
+                    <h3>Ether UI Kit</h3>
+                    <p>A premium glassmorphism design system for modern web applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-title">
+            <h2 class="reveal">Get In Touch</h2>
+        </div>
+        <div class="contact-container glass reveal">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="john@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer style="padding: 40px; text-align: center; color: var(--text-gray);">
+        <p>&copy; 2024 Sacha.io. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
